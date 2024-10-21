@@ -9,7 +9,7 @@ document.getElementById('LoginForm').addEventListener('submit', function(event) 
 
     if (username === correctUsername && password === correctPassword) {
         alert("Selamat Datang");
-        window.location.href = 'login.blade.php';
+        window.location.href = '/index';
     } else {
         alert("Username atau password tidak sesuai");
     }
