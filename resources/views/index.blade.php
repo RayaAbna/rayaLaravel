@@ -13,9 +13,11 @@
             <h1 class="text-3xl font-bold">Welcome to My Portofolio</h1>
             <nav class="mt-4">
                 <ul class="flex space-x-4">
-                    <li><a href="#about" class="hover:text-gray-400">About</a></li>
                     <li><a href="#portfolio" class="hover:text-gray-400">Portofolio</a></li>
                     <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+                    <li><a href="{{ route('about')}}" class="hover:text-gray-400">About</a></li>
+                    <li><a href="{{ route('login')}}" class="hover:text-gray-400">Login</a></li>
+
                 </ul>
             </nav>
         </div>
